@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Weather-Connect</h1>
+        <div class="weather-container">
+            <img class="weather-img" src="https://images.unsplash.com/photo-1603218621951-8b8cce556d3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHN1biUyMHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D" alt="">
+            <div class="info">
+                <div class="location">
+                    <input type="text" id="locationInput" placeholder="Enter location">
+                   
+                        <!-- <button> -->
+                            <button class="btn-shine" onclick="getWeather()">
+                                <span>Search</span>
+                            </button>
+                        <!-- </button> -->
+                    
+                </div>
+                <div class="weather-info" id="weatherInfo">
+                    <!-- Weather information will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

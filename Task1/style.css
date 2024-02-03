@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.nav-item:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-top: 60px; /* Adjust this margin to prevent content from being hidden behind the fixed navbar */
+    padding: 20px;
+}

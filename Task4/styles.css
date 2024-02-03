@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('background-image.jpg'); /* Add your hero image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.image-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.text-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.skills, .projects, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills ul, .projects .project-card {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li, .projects .project-card {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
